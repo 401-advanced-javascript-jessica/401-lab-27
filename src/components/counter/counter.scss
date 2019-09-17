@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+.counter{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin: 1em;
+  font-size: 3em;
+  a{
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  a:link{
+    color: #545E75;
+  }
+  a:visited{
+    color: #545E75;
+  }
+}
