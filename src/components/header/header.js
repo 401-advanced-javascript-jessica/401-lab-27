@@ -1,6 +1,11 @@
 import React from 'react';
 import './header.scss';
 
+/**
+ * Header renders a title for the top of the page
+ *
+ *  @visibleName Header
+ */
 class Header extends React.Component {
   render() {
     return (
