@@ -1,10 +1,18 @@
 import React from 'react';
 import './counter.scss'
 
+/**
+ * Counter renders a number controlled by increment and decrement buttons
+ *
+ *  @visibleName Counter
+ */
 class Counter extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 };
+    this.state = {
+      /** count tracks the number of times increment or decrement has been clicked*/
+      count: 0
+    };
   }
 
   handleUp = e => {
